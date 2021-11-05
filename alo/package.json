@@ -1,0 +1,15 @@
+{
+  "name": "alo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "compile": "npm run clean && tsc -p ./tsconfig.json --outDir dist",
+    "start": "npm run compile && node ./dist/getNamePoints.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
